@@ -1,7 +1,7 @@
 furl<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 fname<- "data.zip"
 
-#Downloading and unzipping the required file 
+#Getting and unzipping the required file/data
 if(!file.exists(fname))
 {
   download.file(furl, fname)
